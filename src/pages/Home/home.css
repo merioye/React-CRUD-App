@@ -1,0 +1,74 @@
+
+.users-container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+.add-student-btn{
+    padding: 7px 10px;
+    color: blue;
+    background: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid blue;
+}
+.add-student-btn:hover{
+    background: blue;
+    color: white;
+    animation-name: animate-add-btn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate-add-btn{
+    from{transform: scale(1,1)}
+    to{transform: scale(1.1,1.1)}
+}
+
+
+
+
+
+
+table{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+table tr{
+    width: 100%;
+    height: 40px;
+}
+.heading-row{
+    background: rgb(19, 23, 27);
+    color: white;
+}
+.heading-row th{
+    border: none;
+}
+table tr td{
+    text-align: center;
+    border-bottom: 1px solid #999999;
+    padding: 5px 0px;
+}
+.edit-student-btn{
+    margin-right: 20px;
+}
+.delete-student-btn, .edit-student-btn{
+    color: blue;
+    background: white;
+    padding: 3px 10px;
+    outline: none;
+    border: 1px solid blue;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding-top: 8px;
+}
+.delete-student-btn:hover, .edit-student-btn:hover{
+    background: blue;
+    color: white;
+}
+
